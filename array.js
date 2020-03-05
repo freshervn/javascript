@@ -25,3 +25,5 @@ console.log(allGroceries.slice(1,4));
 console.log(allGroceries.reverse());
 console.log(allGroceries.sort());
 
+let someNumber =[5,10,2,25,3,255,1,2,5,334,321,2];
+console.log(someNumber.sort(function(a,b){return b-a}));
