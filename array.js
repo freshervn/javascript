@@ -27,3 +27,9 @@ console.log(allGroceries.sort());
 
 let someNumber =[5,10,2,25,3,255,1,2,5,334,321,2];
 console.log(someNumber.sort(function(a,b){return b-a}));
+console.log(someNumber.sort(function(a,b){return a-b}));
+let emptyArray= new Array;
+for (let num=0; num <10 ;num++){
+    emptyArray.push(num);
+}
+console.log(emptyArray);
