@@ -18,3 +18,11 @@ function generateCat(){
     image.src="https://i.pinimg.com/236x/e2/a5/45/e2a5455ce9c0c23f6dddd2fe51381655.jpg";
     div.appendChild(image);
 }
+/* function rpsGame(yourChoice){
+    console.log(yourChoice);
+    var humanChoice=yourChoice.id,botchoice;
+    result =decideWiner(humanChoice,botchoice);
+    message =finalMessage(result);
+    rpsFrontEnd(yourChoice.id,botchoice,message);
+    >
+} */

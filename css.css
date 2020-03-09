@@ -1,12 +1,11 @@
-.container-1 {
-
+.container-1,.container-2,.container-3 {
 width: 75%;
 margin: 0 auto;
 text-align: center;
 }
-.flex-box-container-1{
+.flex-box-container-1,.flex-box-container-2,.flex-box-rps-3{
     display: flex;
-
+    border: 1px solid black;
     padding: 10px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -17,12 +16,6 @@ padding: 10px;
 
 text-align: center;
 }
-.container-2{
-    
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-}
 .flex-box-container-2{
     display: flex;
     border: 1px solid blue;
@@ -31,5 +24,8 @@ text-align: center;
 }
 .flex-box-container-2 img {
     margin: 10px;
-    box-shadow:  0px 10px 50px rgb(83, 83, 105);
+    box-shadow:  0px 10px 50px rgb(26, 26, 170);
+}
+flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px blue;
 }
